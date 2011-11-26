@@ -12,7 +12,7 @@ import javax.ws.rs.ext.Provider;
 import java.util.UUID;
 
 
-@Provider
+@Controller
 public class LiquidityEndpointImpl implements LiquidityEndpoint {
 
     public PoolResource createPool(UUID uuid, PoolResource poolResource) {
