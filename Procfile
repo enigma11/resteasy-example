@@ -1,1 +1,1 @@
-web: java -jar target/dependency/jetty-runner.jar --port 8095 --path /liquidity target/*.war
+web: java -jar target/dependency/jetty-runner.jar --port $PORT --path /liquidity target/*.war
